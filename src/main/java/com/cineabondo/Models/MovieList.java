@@ -1,4 +1,4 @@
-package Models;
+package com.cineabondo.Models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

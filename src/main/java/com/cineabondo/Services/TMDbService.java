@@ -1,4 +1,4 @@
-package Services;
+package com.cineabondo.Services;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

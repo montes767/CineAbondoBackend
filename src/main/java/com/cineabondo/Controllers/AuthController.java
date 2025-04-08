@@ -1,7 +1,7 @@
-package Controllers;
+package com.cineabondo.Controllers;
 
-import Models.User;
-import Services.AuthService;
+import com.cineabondo.Models.User;
+import com.cineabondo.Services.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

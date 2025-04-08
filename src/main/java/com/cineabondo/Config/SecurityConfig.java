@@ -1,6 +1,6 @@
-package Config;
+package com.cineabondo.Config;
 
-import Repositories.UserRepository;
+import com.cineabondo.Repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

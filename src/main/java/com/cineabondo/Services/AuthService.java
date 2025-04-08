@@ -1,8 +1,8 @@
-package Services;
+package com.cineabondo.Services;
 
-import Models.User;
-import Repositories.JwtUtil;
-import Repositories.UserRepository;
+import com.cineabondo.Models.User;
+import com.cineabondo.Repositories.JwtUtil;
+import com.cineabondo.Repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

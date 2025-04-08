@@ -1,6 +1,6 @@
-package Controllers;
+package com.cineabondo.Controllers;
 
-import Services.MovieService;
+import com.cineabondo.Services.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

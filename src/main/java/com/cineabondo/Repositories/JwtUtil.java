@@ -1,4 +1,7 @@
-package Repositories;
+package com.cineabondo.Repositories;
+
+
+import javax.crypto.SecretKey;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

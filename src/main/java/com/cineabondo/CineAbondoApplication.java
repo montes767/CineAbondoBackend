@@ -1,3 +1,5 @@
+package com.cineabondo;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -9,9 +11,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"Config", "Repositories", "Models"})
-@EnableJpaRepositories(basePackages = "Repositories")
-@EntityScan(basePackages = "Models")
+@EntityScan(basePackages = "com.cineabondo.models")
 public class CineAbondoApplication {
     public static void main(String[] args) {
         SpringApplication.run(CineAbondoApplication.class, args);
